@@ -1,0 +1,148 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title{
+  color:#61A105 ;
+}
+/* Navbar */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 10px 20px;
+}
+.logo {
+  height: 50px;
+}
+.menus-container ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.menus-container li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.menus-container li a:hover {
+  color: #ffcc00;
+}
+
+/* Banner */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
+.banner-left {
+  max-width: 50%;
+}
+.banner-img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+.app-btn, .doc-btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.app-btn {
+  background: #007bff;
+  color: #fff;
+}
+.app-btn:hover {
+  background: #0056b3;
+}
+.doc-btn {
+  background: #28a745;
+  color: #fff;
+}
+.doc-btn:hover {
+  background: #1e7e34;
+}
+
+/* Services */
+.services-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.service-card {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.service-img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Contact */
+.contact-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+.input-box, .text-area {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  padding: 40px 20px;
+}
+.fot-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.fot-container h2 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+.fot-container a {
+  color: #fff;
+  text-decoration: none;
+}
+.fot-container a:hover {
+  color: #ffcc00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .banner-container, .cards {
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-left {
+    max-width: 100%;
+  }
+  .fot-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .fot-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}

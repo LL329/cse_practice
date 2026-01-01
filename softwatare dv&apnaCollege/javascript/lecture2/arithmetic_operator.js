@@ -1,0 +1,11 @@
+let a = 4;
+let b = 2;
+let sum = a + b;
+a--;
+console.log("a =",a);
+a+=2;
+console.log("a + 2 = ",a);
+a**=4;
+console.log("a**=4 value = ",a);
+console.log("sum = ", sum);
+console.log("Exponentiation = ", a**b);

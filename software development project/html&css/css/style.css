@@ -1,0 +1,112 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
+        .tit {
+            color :whitesmoke;
+            text-align: center;
+            font-weight: bolder;
+            font-size: italic;
+            font-size: 60px;
+            background: linear-gradient(45deg,red,green);
+        }
+        .des{
+            color: white;
+            line-height: 1.5em;
+             background: linear-gradient(60deg,black,green); 
+        }
+            
+        #text{
+            color:lightblue;
+            font-size: 30px;
+            background: linear-gradient(15deg,blue,orange);
+                                                 
+        }
+        
+        p{
+            color: rgb(18, 110, 73);
+            font-size: large;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 5px solid red ;
+            padding: 70px;
+            margin-top: 70px;
+            margin-left: 50;
+            /* width: 50px;
+            margin: a; */
+            background: red;
+            box-shadow: 4px 8px 80px black;
+        }
+        .test{
+            padding: 50;
+            background-color: red;
+            border: 1px solid black;
+            width: 50%;
+            margin: auto;
+        }
+        .child{
+            padding: 20px;
+           background-color: green;
+            width: 50%;
+            height: 100vh;
+        }
+        .st{
+            width: 200px;
+            height: 150px;
+            background-color: green;
+           float: left;
+        }
+
+        .nd{
+            width: 200px;
+            height: 150px;
+            background-color: #5f5211;
+            float: left;
+        }
+        .boxx{
+            width: 200px;
+            height: 150px;
+            border: 1px solid blueviolet;
+            margin: 5px;
+            font-size: 30px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly; 
+            gap: 20px;
+            flex-direction: row-reverse;
+            height: 100vh;
+            align-items: center;
+            flex-wrap: wrap;
+            
+        }
+        .box1{background:blue;
+            position: absolute;
+            z-index: -1;
+        }
+        .box2{
+            background: red;
+            margin-top: 20px;
+            position: relative;
+        }
+        .box3{
+            background: green;
+            margin-top: 20px;
+        }
+        .green{
+            width: 450px;
+            height: 250px;
+            background-color:green;
+            margin: 50px;
+            position: absolute;
+        }
+        .red{
+            width: 130px;
+            height: 130px;
+            background-color:red;
+            border-radius: 60px;
+            position: relative;
+            top: 35%;
+            left: 35%;
+        }
