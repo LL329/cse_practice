@@ -1,1 +1,1 @@
-# cse_practice
+# cse-practice
